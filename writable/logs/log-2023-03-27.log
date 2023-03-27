@@ -1,0 +1,306 @@
+CRITICAL - 2023-03-27 00:21:44 --> Undefined constant "App\Controllers\id"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu('1$')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 00:21:59 --> Undefined constant "App\Controllers\id"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu('1$')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 00:22:42 --> Undefined constant "App\Controllers\id"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu('1$')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 00:22:46 --> Undefined constant "App\Controllers\id"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu('1$')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 01:41:44 --> Undefined variable $tanggal
+in APPPATH\Views\buku_tamu.php on line 13.
+ 1 APPPATH\Views\buku_tamu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 01:45:32 --> Undefined variable $tanggal
+in APPPATH\Views\buku_tamu.php on line 13.
+ 1 APPPATH\Views\buku_tamu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 01:52:36 --> syntax error, unexpected token "=>", expecting "]"
+in APPPATH\Controllers\Home.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\www\\starter\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 01:58:25 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\www\\starter\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 01:58:26 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 54.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\www\\starter\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:05:06 --> Undefined variable $id
+in APPPATH\Views\buku_tamu.php on line 18.
+ 1 APPPATH\Views\buku_tamu.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:05:22 --> Undefined variable $id
+in APPPATH\Views\buku_tamu.php on line 19.
+ 1 APPPATH\Views\buku_tamu.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:05:35 --> Undefined variable $id
+in APPPATH\Views\buku_tamu.php on line 19.
+ 1 APPPATH\Views\buku_tamu.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:05:59 --> Undefined variable $id
+in APPPATH\Views\buku_tamu.php on line 19.
+ 1 APPPATH\Views\buku_tamu.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:06:27 --> Undefined variable $tanggal
+in APPPATH\Views\buku_tamu.php on line 23.
+ 1 APPPATH\Views\buku_tamu.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:06:51 --> Undefined variable $tanggal
+in APPPATH\Views\buku_tamu.php on line 23.
+ 1 APPPATH\Views\buku_tamu.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:07:45 --> Undefined variable $dari
+in APPPATH\Views\buku_tamu.php on line 38.
+ 1 APPPATH\Views\buku_tamu.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dari', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:09:12 --> Undefined variable $id
+in APPPATH\Views\buku_tamu.php on line 11.
+ 1 APPPATH\Views\buku_tamu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\www\\starter\\app\\Views\\buku_tamu.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\buku_tamu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('buku_tamu', [], true)
+ 5 APPPATH\Controllers\Home.php(37): view('buku_tamu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:36:03 --> syntax error, unexpected token "return"
+in APPPATH\Views\latihan.php on line 17.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('latihan', [], true)
+ 3 APPPATH\Controllers\Home.php(91): view('latihan')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->latihan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:37:31 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Views\latihan.php on line 11.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('latihan', [], true)
+ 3 APPPATH\Controllers\Home.php(91): view('latihan')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->latihan()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:37:41 --> Array to string conversion
+in APPPATH\Views\latihan.php on line 9.
+ 1 APPPATH\Views\latihan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\www\\starter\\app\\Views\\latihan.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\latihan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('latihan', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('latihan')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->latihan()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:38:00 --> Array to string conversion
+in APPPATH\Views\latihan.php on line 9.
+ 1 APPPATH\Views\latihan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\www\\starter\\app\\Views\\latihan.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\latihan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('latihan', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('latihan')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->latihan()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 02:42:30 --> Undefined variable $data
+in APPPATH\Views\latihan.php on line 9.
+ 1 APPPATH\Views\latihan.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\www\\starter\\app\\Views\\latihan.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\www\\starter\\app\\Views\\latihan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('latihan', [], true)
+ 5 APPPATH\Controllers\Home.php(91): view('latihan')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->latihan()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 03:09:27 --> Undefined array key "id"
+in APPPATH\Models\bukutamuModel.php on line 50.
+ 1 APPPATH\Models\bukutamuModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\www\\starter\\app\\Models\\bukutamuModel.php', 50)
+ 2 APPPATH\Controllers\Home.php(23): App\Models\bukutamuModel->tampil_datatamu(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 03:18:41 --> Undefined array key "id"
+in APPPATH\Models\bukutamuModel.php on line 50.
+ 1 APPPATH\Models\bukutamuModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\www\\starter\\app\\Models\\bukutamuModel.php', 50)
+ 2 APPPATH\Controllers\Home.php(23): App\Models\bukutamuModel->tampil_datatamu(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 03:20:53 --> New expressions are not supported in this context
+in APPPATH\Controllers\Home.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-27 03:27:52 --> Undefined array key "id"
+in APPPATH\Models\bukutamuModel.php on line 51.
+ 1 APPPATH\Models\bukutamuModel.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\www\\starter\\app\\Models\\bukutamuModel.php', 51)
+ 2 APPPATH\Controllers\Home.php(23): App\Models\bukutamuModel->tampil_datatamu(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+CRITICAL - 2023-03-27 03:31:19 --> Trying to access array offset on value of type null
+in APPPATH\Models\bukutamuModel.php on line 51.
+ 1 APPPATH\Models\bukutamuModel.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\www\\starter\\app\\Models\\bukutamuModel.php', 51)
+ 2 APPPATH\Controllers\Home.php(23): App\Models\bukutamuModel->tampil_datatamu(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->bukutamu()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
+ERROR - 2023-03-27 04:13:32 --> mysqli_sql_exception: Table 'starter_crud.contact' doesn't exist in D:\www\starter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\www\starter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\www\starter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\www\starter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\www\starter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\www\starter\vendor\codeigniter4\framework\system\Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\www\starter\vendor\codeigniter4\framework\system\BaseModel.php(557): CodeIgniter\Model->doFind(false, NULL)
+#6 D:\www\starter\app\Controllers\Home.php(60): CodeIgniter\BaseModel->find()
+#7 D:\www\starter\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->listbukutamu()
+#8 D:\www\starter\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\www\starter\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\www\starter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\www\starter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\...')
+#12 {main}
+CRITICAL - 2023-03-27 04:13:32 --> Table 'starter_crud.contact' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `contact`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `contact`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `contact`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `contact`', [], false)
+ 5 SYSTEMPATH\Model.php(203): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(557): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Home.php(60): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->listbukutamu()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\www\\starter\\public\\index.php')
